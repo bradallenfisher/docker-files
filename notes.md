@@ -8,5 +8,7 @@ docker ps -a
 docker commit {container} yourname/image-name
 ```
 ## Push it up to repo
+``` shell
 docker login
 docker push yourname/newimage
+```
