@@ -1,6 +1,6 @@
 ## Build new container
 docker run -i -t centos bash
-## do stuff to running container
+### do stuff to running container
 
 ## Then Commit it so you have a new image
 docker commit {IMAGEID} yourname/image-name
